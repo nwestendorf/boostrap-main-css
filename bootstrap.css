@@ -1,3 +1,6 @@
+/* NICK Says: Let's start to strip this down, as a good practice to collaborative stuff in git.  Eventually, I think we
+could move all of the theme files here. For now, I'll start by commenting out stuff rather than removing. */
+
 /*!
  * Bootstrap v2.3.0
  *
@@ -70,13 +73,14 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-
+/* 
 a:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-
+commented out - let the browser determine this. - Nick
+*/ 
 a:hover,
 a:active {
   outline: 0;
